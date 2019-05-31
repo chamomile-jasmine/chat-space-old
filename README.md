@@ -45,7 +45,7 @@ Things you may want to cover:
 |name|string|index: true,null: false,unique: true|
 
 ## Assocoation
-- has_many :users,through::group_users
+- has_many :users,through: :group_users
 - has_many :group_users
 - has_many :messages
 
@@ -63,11 +63,10 @@ Things you may want to cover:
 - belongs_to :group
 - belongs_to :user
 
-##group_users table
+## group_users table
 
 |Column|Type|Options|
 |-------|----|-------|
-|body|text|null: false|
 |group|reference|index: true,foreign_key: true,null: false|
 |user|reference|index: true,foreign_key: true,null: false|
 
