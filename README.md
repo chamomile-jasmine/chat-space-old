@@ -23,9 +23,9 @@ Things you may want to cover:
 
 * ...
 
-#DB設計
+# DB設計
 
-##users table
+## users table
 
 ｜Column|Type|Options|
 |-------|----|-------|
@@ -33,6 +33,7 @@ Things you may want to cover:
 |mail|string|null: false,unique: true|
 
 ## Assocoation
+
 - has_many :groups,through: :group_users
 - has_many :messages
 - has_many :group_users
