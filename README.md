@@ -1,5 +1,7 @@
 # README
 
+* * *
+
 ## DB設計
 
 ### users table
@@ -13,6 +15,7 @@
 - has_many :messages
 - has_many :group_users
 
+* * *
 
 ### group table
 |Column|Type|Options|
@@ -24,6 +27,7 @@
 - has_many :group_users
 - has_many :messages
 
+* * *
 
 ### message table
 |Column|Type|Options|
@@ -37,6 +41,7 @@
 - belongs_to :group
 - belongs_to :user
 
+* * *
 
 ### group_users table
 |Column|Type|Options|
