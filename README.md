@@ -27,7 +27,7 @@ Things you may want to cover:
 
 ## users table
 
-｜Column|Type|Options|
+|Column|Type|Options|
 |-------|----|-------|
 |name|string|index: true,null: false,unique: true|
 |mail|string|null: false,unique: true|
@@ -40,7 +40,7 @@ Things you may want to cover:
 
 ## group table
 
-｜Column|Type|Options|
+|Column|Type|Options|
 |-------|----|-------|
 |name|string|index: true,null: false,unique: true|
 
@@ -52,7 +52,7 @@ Things you may want to cover:
 
 ## message table
 
-｜Column|Type|Options|
+|Column|Type|Options|
 |-------|----|-------|
 |body|text|null: false|
 |image|string||
@@ -65,7 +65,7 @@ Things you may want to cover:
 
 ##group_users table
 
-｜Column|Type|Options|
+|Column|Type|Options|
 |-------|----|-------|
 |body|text|null: false|
 |group|reference|index: true,foreign_key: true,null: false|
