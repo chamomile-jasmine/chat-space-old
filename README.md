@@ -15,7 +15,7 @@
 
 * * *
 
-### group table
+### groups table
 |Column|Type|Options|
 |-------|----|-------|
 |name|string|index: true,null: false,unique: true|
@@ -27,10 +27,10 @@
 
 * * *
 
-### message table
+### messages table
 |Column|Type|Options|
 |-------|----|-------|
-|body|text|null: false|
+|body|text||
 |image|string||
 |group|reference|foreign_key: true|
 |user|reference|foreign_key: true|
