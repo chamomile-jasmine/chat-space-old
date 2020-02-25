@@ -55,7 +55,7 @@ GEM
       html2haml
     erubis (2.7.0)
     execjs (2.7.0)
-    ffi (1.11.0)
+    ffi (1.12.2)
     font-awesome-rails (4.7.0.5)
       railties (>= 3.2, < 6.1)
     globalid (0.4.2)
@@ -96,7 +96,7 @@ GEM
     minitest (5.11.3)
     mysql2 (0.5.2)
     nio4r (2.3.1)
-    nokogiri (1.10.3)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     puma (3.12.1)
     rack (2.0.7)
